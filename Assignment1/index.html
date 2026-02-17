@@ -2,10 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Smart Event Dashboard</title>
+  <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-  
+
+  <!-- <h1>Smart Event Dashboard</h1> -->
+ <div class="header">Smart Event Dashboard</div>
+
+  <div class="layout">
+    <form id="eventForm">
+      <input type="text" id="title" placeholder="Event Title" required>
+      <input type="date" id="date" required>
+      <textarea id="description" placeholder="Event Description"></textarea>
+      <button type="button" id="btn">Add Event</button>
+    </form>
+
+    <div id="eventContainer">
+       <div id="eventContainercld"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
